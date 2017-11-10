@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {AppConstants} from '../app.common';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +6,5 @@ import {AppConstants} from '../app.common';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
-  constants: AppConstants;
-
-  constructor(constants: AppConstants) {
-    this.constants = constants;
-  }
 
 }
