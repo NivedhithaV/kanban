@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('triplebyte App', () => {
+describe('Kanban App', () => {
   let page: AppPage;
 
   beforeEach(() => {
